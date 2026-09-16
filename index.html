@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Nexora AI Booking Agent</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="chat-container">
+
+    <header>
+      <h1>Nexora AI</h1>
+      <p>Gent's Craft Barber</p>
+    </header>
+
+    <div id="chatBox" class="chat-box">
+
+      <div class="message bot">
+        👋 Hi! Welcome to Gent's Craft Barber.
+        <br><br>
+        I can help you book an appointment.
+        <br><br>
+        <b>Our Services:</b>
+        <br><br>
+        ✂️ Classic Haircut — ₹150
+        <br>
+        🧔 Hair + Beard — ₹250
+        <br>
+        ✂️ Beard Trim — ₹100
+        <br>
+        💇 Premium Styling — ₹300
+        <br><br>
+        Which service would you like?
+      </div>
+
+    </div>
+
+    <div class="input-area">
+
+      <input
+        type="text"
+        id="userInput"
+        placeholder="Type your message..."
+        autocomplete="off"
+      >
+
+      <button id="sendBtn">Send</button>
+
+    </div>
+
+    <button id="whatsappBtn">
+      💬 Continue on WhatsApp
+    </button>
+
+  </div>
+
+  <script src="agent.js"></script>
+
+</body>
+</html>
